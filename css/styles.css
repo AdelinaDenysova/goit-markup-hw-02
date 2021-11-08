@@ -221,6 +221,13 @@ body {
   color: var(--header-second-text-color);
 }
 
+.footer-mail-item:hover {
+  color: var(--accent-color);
+}
+.footer-mail-item:focus {
+  color: var(--accent-color);
+
+
 .footer-tel-item {
   font-weight: 400;
   font-size: 14px;
@@ -228,6 +235,12 @@ body {
   letter-spacing: 0.03em;
   color: var(--header-second-text-color);
 }
+
+.footer-tel-item:hover {
+  color: var(--accent-color);
+}
+.footer-tel-item:focus {
+  color: var(--accent-color);
 
 /* ------------------------------- MAIN CONTENT FOR PORTFOLIO PAGE ------------------------------------- */
 
