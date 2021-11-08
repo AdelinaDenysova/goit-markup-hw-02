@@ -119,6 +119,7 @@ body {
   letter-spacing: 0.06em;
   color: var(--main-btn-color);
   background-color: var(--accent-color);
+  cursor: pointer;
 }
 
 /* About section */
@@ -172,7 +173,6 @@ body {
 }
 
 .team-occupation {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -206,7 +206,6 @@ body {
 }
 
 .footer-address-item {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -214,7 +213,6 @@ body {
 }
 
 .footer-mail-item {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -230,7 +228,6 @@ body {
 }
 
 .footer-tel-item {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -243,6 +240,7 @@ body {
 
 .footer-tel-item:focus {
   color: var(--accent-color);
+}
 
 /* ------------------------------- MAIN CONTENT FOR PORTFOLIO PAGE ------------------------------------- */
 
@@ -252,6 +250,7 @@ body {
   background-color: var(--accent-color);
   color: var(--main-btn-color);
 }
+
 .filter-btn:focus {
   background-color: var(--accent-color);
   color: var(--main-btn-color);
@@ -264,6 +263,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-btn-color);
+  cursor: pointer;
 }
 
 /* Portfolio items */
@@ -277,7 +277,6 @@ body {
 }
 
 .portfolio-item-description {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
