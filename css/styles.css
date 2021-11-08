@@ -11,7 +11,8 @@
   --header-second-text-color: #757575;
   --footer-text-color: #ffffff;
   --footer-second-text-color: rgba(255, 255, 255, 0.6);
-  --logo-second-part-color: #000000;
+  --header-logo-second-part-color: #000000;
+  --footer-logo-second-part-color: #ffffff;
 }
 
 body {
@@ -42,7 +43,7 @@ body {
 }
 
 .header-logo-second-part {
-  color: var(--logo-second-part-color);
+  color: var(--header-logo-second-part-color);
 }
 
 /* Navigation */
@@ -199,13 +200,13 @@ body {
 }
 
 .footer-logo-second-part {
-  color: var(--logo-second-part-color);
+  color: var(--footer-logo-second-part-color);
 }
 
 /* Address */
 
-.footer-address {
-  background-color: pink;
+.footer {
+  background-color: var(--section-background-color);
   font-style: normal;
 }
 
