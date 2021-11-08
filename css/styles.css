@@ -224,9 +224,10 @@ body {
 .footer-mail-item:hover {
   color: var(--accent-color);
 }
+
 .footer-mail-item:focus {
   color: var(--accent-color);
-
+}
 
 .footer-tel-item {
   font-weight: 400;
@@ -239,6 +240,7 @@ body {
 .footer-tel-item:hover {
   color: var(--accent-color);
 }
+
 .footer-tel-item:focus {
   color: var(--accent-color);
 
